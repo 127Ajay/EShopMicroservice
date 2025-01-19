@@ -11,5 +11,5 @@ public class BadRequestException : Exception
         Details = details;
     }
 
-    public string? Details { get; }
+    public string Details { get; }
 }
